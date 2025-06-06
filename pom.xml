@@ -1196,12 +1196,7 @@
     </reporting>
 
     <properties>
-
         <sonar.sources>pom.xml,src,deploy</sonar.sources>
-   
-        <sonar.organization>yacine-maghezzi-sonarsource</sonar.organization>
-        <sonar.host.url>https://sonarcloud.io</sonar.host.url>
-        
         <failOnMissingWebXml>false</failOnMissingWebXml>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.java.target>1.7</project.java.target>
