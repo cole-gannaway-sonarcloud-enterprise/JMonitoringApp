@@ -33,7 +33,6 @@ import javax.naming.directory.SearchControls;
 import javax.naming.directory.SearchResult;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-
 import org.owasp.esapi.Encoder;
 import org.owasp.esapi.reference.DefaultEncoder;
 
@@ -91,8 +90,7 @@ public class LDAPManager {
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws IOException {
         String location = req.getParameter("url");
         resp.sendRedirect(location);
-      }
-
+    }
 
     /**
      * Search LDAPPerson by name
